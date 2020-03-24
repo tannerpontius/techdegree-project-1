@@ -33,12 +33,15 @@ a:hover {
 }
 
 /* Section Styles */
+nav {
+  z-index: 10000;
+}
 
 .main-nav {
   width: 100%;
   background: black;
   min-height: 30px;
-  padding: 10px;
+  padding: 20px;
   position: fixed;
   text-align: center;
 }
@@ -49,7 +52,6 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  z-index: 1000;
 }
 
 .nav .name {
@@ -104,6 +106,19 @@ header .profile-image:hover {
   transition: all .3s;
 }
 
+.b {
+  padding: 10px 15px;
+  background: #980000;
+  color: white;
+  width: 200px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.b:hover {
+  background: #333;
+}
 
 .header-inner {
   height: 50vh;
@@ -170,15 +185,14 @@ header .profile-image:hover {
   transition: all 0.3s;
 }
 
-.portfolio-card:hover {
-  filter: grayscale(100%);
-}
+
 
 .p-1 {
   background-image: url(images/orion.png);
   background-size: cover;
   background-position: 50% 50%;
 }
+
 
 .p-2 {
   background-image: url(images/poke.png);
@@ -193,19 +207,19 @@ header .profile-image:hover {
 }
 
 .p-4 {
-  background-image: url(images/orion.png);
+  background-image: url(images/archcity.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
 .p-5 {
-  background-image: url(images/orion.png);
+  background-image: url(images/PR.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
 .p-6 {
-  background-image: url(images/orion.png);
+  background-image: url(images/Vironexis.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
