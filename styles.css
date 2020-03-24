@@ -21,6 +21,17 @@ a:hover {
   color: #6633ff;
 }
 
+.site-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.site-link:hover {
+  color: white !important;
+  text-decoration: line-through !important;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -107,7 +118,12 @@ header .profile-image:hover {
   background: rgba(0,0,0,0.85);
 }
 
-
+.container {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
 
 .tag {
   background-color: #efefef;
@@ -134,6 +150,66 @@ header .profile-image:hover {
 .card:hover {
   border-color: #980000;
 }
+
+.p-row{
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  align-self: center;
+}
+
+.portfolio-card {
+  margin: 30px;
+  padding: 25px;
+  height: 500px;
+  width: 500px;
+  text-align: left;
+  border-radius: 6px;
+  display: flex;
+  transition: all 0.3s;
+}
+
+.portfolio-card:hover {
+  filter: grayscale(100%);
+}
+
+.p-1 {
+  background-image: url(images/orion.png);
+  background: cover;
+  background-position: 50% 50%;
+}
+
+.p-2 {
+  background-image: url(images/orion.png);
+  background: cover;
+  background-position: 50% 50%;
+}
+
+.p-3 {
+  background-image: url(images/orion.png);
+  background: cover;
+  background-position: 50% 50%;
+}
+
+.p-4 {
+  background-image: url(images/orion.png);
+  background: cover;
+  background-position: 50% 50%;
+}
+
+.p-5 {
+  background-image: url(images/orion.png);
+  background: cover;
+  background-position: 50% 50%;
+}
+
+.p-6 {
+  background-image: url(images/orion.png);
+  background: cover;
+  background-position: 50% 50%;
+}
+
+
 
 ul.skills {
   display: flex;
