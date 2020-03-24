@@ -91,6 +91,24 @@ header .profile-image:hover {
   filter: grayscale(100%);
   transition: all .3s;
 }
+
+
+.header-inner {
+  height: 50vh;
+  background-image: url('images/experience-bg.jpg');
+  background: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.page-title {
+  color: white;
+  padding: 15px 25px;
+  background: rgba(0,0,0,0.85);
+}
+
+
+
 .tag {
   background-color: #efefef;
   color: black;
