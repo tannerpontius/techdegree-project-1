@@ -49,6 +49,7 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  z-index: 1000;
 }
 
 .nav .name {
@@ -107,7 +108,7 @@ header .profile-image:hover {
 .header-inner {
   height: 50vh;
   background-image: url('images/experience-bg.jpg');
-  background: cover;
+  background-size: cover;
   overflow: hidden;
   background-attachment: fixed;
 }
@@ -175,37 +176,37 @@ header .profile-image:hover {
 
 .p-1 {
   background-image: url(images/orion.png);
-  background: cover;
+  background-size: cover;
   background-position: 50% 50%;
 }
 
 .p-2 {
-  background-image: url(images/orion.png);
-  background: cover;
+  background-image: url(images/poke.png);
+  background-size: cover;
   background-position: 50% 50%;
 }
 
 .p-3 {
-  background-image: url(images/orion.png);
-  background: cover;
+  background-image: url(images/quantum.png);
+  background-size: cover;
   background-position: 50% 50%;
 }
 
 .p-4 {
   background-image: url(images/orion.png);
-  background: cover;
+  background-size: cover;
   background-position: 50% 50%;
 }
 
 .p-5 {
   background-image: url(images/orion.png);
-  background: cover;
+  background-size: cover;
   background-position: 50% 50%;
 }
 
 .p-6 {
   background-image: url(images/orion.png);
-  background: cover;
+  background-size: cover;
   background-position: 50% 50%;
 }
 
