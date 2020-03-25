@@ -120,10 +120,19 @@ header .profile-image:hover {
   background: #333;
 }
 
-.header-inner {
+.header-inner-experience {
   height: 50vh;
   background-image: url('images/experience-bg.jpg');
   background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.header-inner-about {
+  height: 50vh;
+  background-image: url('images/about.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
   overflow: hidden;
   background-attachment: fixed;
 }
