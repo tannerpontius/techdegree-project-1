@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #fff;
 }
 
 .site-link {
@@ -150,6 +150,9 @@ header .profile-image:hover {
   align-content: center;
 }
 
+
+
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -174,6 +177,15 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #980000;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+}
+
+.bio-content {
+  margin-left: 35px;
 }
 
 .p-row{
@@ -277,6 +289,35 @@ ul.interests {
 
 
 
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.left-50 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: lightgray;
+  align-items: stretch;
+  text-align: left;
+  padding: 50px;
+}
+
+.left-50 p {
+  max-width: 500px;
+}
+
+.right-50 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-image: url(images/columbus.jpg);
+  background-position: 50% 50%;
+  align-items: stretch;
+}
 
 
 footer {
